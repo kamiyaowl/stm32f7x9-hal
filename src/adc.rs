@@ -469,7 +469,7 @@ pub mod config {
 /// # Examples
 /// ## One-shot conversion
 /// ```
-/// use stm32f7x7_hal::{
+/// use stm32f7x9_hal::{
 ///   gpio::gpioa,
 ///   adc::{
 ///     Adc,
@@ -489,7 +489,7 @@ pub mod config {
 ///
 /// ## Sequence conversion
 /// ```
-/// use stm32f7x7_hal::{
+/// use stm32f7x9_hal::{
 ///   gpio::gpioa,
 ///   adc::{
 ///     Adc,
@@ -537,7 +537,7 @@ pub mod config {
 /// channel up to an external pin with an LED or oscilloscope attached to check it's really
 /// generating pulses if the ADC doesn't seem to be triggering.
 /// ```
-/// use stm32f7x7_hal::{
+/// use stm32f7x9_hal::{
 ///   gpio::gpioa,
 ///   adc::{
 ///     Adc,

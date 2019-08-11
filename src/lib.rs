@@ -6,7 +6,7 @@
 
 pub use embedded_hal as hal;
 
-pub use stm32f7::stm32f7x7 as stm32;
+pub use stm32f7::stm32f7x9 as stm32;
 
 pub use nb;
 pub use nb::block;

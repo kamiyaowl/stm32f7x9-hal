@@ -1,10 +1,8 @@
-# `stm32f7x7-hal`
+# `stm32f7x9-hal`
 
-> HAL for the STM32F7x7 family of microcontrollers
+> HAL for the STM32F7x9 family of microcontrollers
 
 [`embedded-hal`]: https://crates.io/crates/embedded-hal
-
-## [Documentation](https://docs.rs/stm32f30x-hal)
 
 ## License
 

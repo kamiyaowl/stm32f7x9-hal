@@ -1,9 +1,12 @@
 MEMORY
 {
-  /* NOTE K = KiBi = 1024 bytes */
-  FLASH : ORIGIN = 0x08000000, LENGTH = 2M
-  /* We're only the tightly coupled RAM here to avoid nasty effect */
-  RAM : ORIGIN = 0x20000000, LENGTH = 128K
+  /* NOTE 1 K = 1 KiBi = 1024 bytes */
+
+  /* Flash memory on ITCM  */ 
+  /* FLASH : ORIGIN = 0x00200000, LENGTH = 2048K */
+  FLASH : ORIGIN = 0x08000000, LENGTH = 2048K
+  /* DTCM: 128K, SRAM1: 368K, SRAM2: 16K */ 
+  RAM   : ORIGIN = 0x20000000, LENGTH = 512K 
 }
 
 /* This is where the call stack will be allocated. */
